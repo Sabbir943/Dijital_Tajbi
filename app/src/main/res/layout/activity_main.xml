@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/digitaltajbi"
+    android:layout_margin="15dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tvcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:textSize="70dp"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add sum"
+        android:textSize="30dp"
+        android:backgroundTint="#FF6347"
+        />
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add sub"
+        android:textSize="30dp"
+        android:backgroundTint="#DC143C"
+        />
+
+    <Button
+        android:id="@+id/buttonreset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="30dp"
+        android:backgroundTint="#F08080 "
+        />
+</LinearLayout>
